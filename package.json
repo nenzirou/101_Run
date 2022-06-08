@@ -1,0 +1,25 @@
+{
+  "name": "gametemplete",
+  "version": "1.0.0",
+  "description": "templete of node games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack-cli -w",
+    "typings": "typings search jquery"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.10.4",
+    "pixi-filters": "^4.1.6",
+    "pixi-sound": "^3.0.5",
+    "pixi.js": "^6.3.2"
+  },
+  "devDependencies": {
+    "@types/typescript": "^2.0.0",
+    "typescript": "^4.7.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
